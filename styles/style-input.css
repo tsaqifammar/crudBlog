@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+:root{
+	/*--main-color: #002f70;
+	--darker-main-color: #002252;*/
+	--main-color: #1a1a1a;
+	--darker-main-color: black;
+	--alt-color: #1a1a1a;
+	--darker-alt-color: black;
+}
+
+body {
+	font-family: 'Product Sans', sans-serif;
+}
+
+textarea {
+  resize: none;
+}
+
+a {
+	color: var(--main-color);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--darker-main-color);
+}
+
+.container{
+	margin: auto;
+	width: 80%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+.upper-nav {
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+}
+
+.kiddo .container {
+	display: flex;
+	justify-content: center;
+}
+
+.kiddo {
+	padding: 30px;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column; 
+}
+
+.form-group label {
+	padding: 5px;
+}
+
+.form-group input, .form-group textarea {
+	padding: 5px;
+}
+
+.form-group .isi {
+	margin-bottom: 20px;
+}
+
+.form-group button {
+	font-family: 'Product Sans', sans-serif;
+	font-weight: 400;
+	padding: 15px;
+	width: 100px;
+	border-radius: 5px;
+	border-style: none;
+	background-color: var(--main-color);
+	color: white;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.form-group button:hover {
+	background-color: var(--darker-main-color);
+}
+
+.back-button .container {
+	justify-content: center;
+}
+
+#main-footer{
+	color: var(--main-color);
+	text-align:center;
+	padding:20px;
+	margin-top:40px;
+}

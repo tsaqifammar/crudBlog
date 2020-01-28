@@ -1,1 +1,2 @@
-Sebuah personal blog dengan fungsi CRUD.
+#h1 Personal Blog
+#h3 Sebuah blog dengan fungsi CRUD.

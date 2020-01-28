@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+:root{
+	/*--main-color: #002f70;
+	--darker-main-color: #002252;*/
+	--main-color: #1a1a1a;
+	--darker-main-color: black;
+	--alt-color: #1a1a1a;
+	--darker-alt-color: black;
+}
+
+/* -- GLOBAL -- */
+
+body{
+	font-family: 'Product Sans', sans-serif;
+	font-weight: normal;
+	color: var(--main-color); 
+}
+
+a {
+	color: var(--main-color);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--darker-main-color);
+}
+
+a:visited {
+	color: var(--main-color);
+}
+
+ul{
+	list-style: none;
+}
+
+button {
+	border-style: none;
+	border-radius: 5px;
+	background-color: var(--main-color); 
+	color: white;
+	padding: 10px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+button:hover {
+	background-color: var(--darker-main-color);
+}
+
+button:focus {
+	outline: 0;
+}
+
+.container{
+	margin: auto;
+	width: 80%;
+	overflow: hidden;
+}
+
+/* -X- GLOBAL -X- */
+
+/* -- NAV -- */
+.upper-nav {
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+}
+
+.lower-nav {
+	font-weight: normal;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+}
+
+.lower-nav .nav-links{
+	display: flex;
+}
+
+.lower-nav .nav-link{
+	padding: 30px;
+}
+
+/* -X- NAV -X- */
+
+/* -- INTRO THINGY -- */
+
+.intro .container{
+	background: url("../assets/intro-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.intro .container {
+	padding: 150px;
+	text-align: center;
+}
+
+.intro h1{
+	font-size: 60px;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+}
+
+.intro button {
+	margin-top: 35px;
+	font-size: 20px;
+	padding: 15px;
+	background-color: var(--alt-color);
+}
+
+.intro button:hover{
+	background-color: var(--darker-alt-color);
+}
+
+/* -X- INTRO THINGY -X- */
+
+/* -- MAIN -- */
+
+.main .container {
+	margin-top: 50px;
+	margin-bottom:50px;
+	width: 50%;
+	text-align: center;
+}
+
+.main .lat-posts {
+	padding-bottom: 50px;
+}
+
+.artikel{
+	display: flex;
+	padding: 20px;
+	align-items: center;
+}
+
+.artikel .gambar {
+	padding-right: 40px;
+}
+
+.artikel .article-info {
+	text-align: left;
+}
+
+.artikel .article-info h1 {
+	padding-bottom: 7px;
+}
+
+.artikel .article-info p {
+	padding-bottom: 10px;
+}
+
+
+/* -X- MAIN -X- */
+
+
+/* -- FOOTER -- */
+
+#main-footer{
+	color: var(--main-color);
+	text-align:center;
+	padding:20px;
+	margin-top:40px;
+}
+
+/* -X- FOOTER -X- */
