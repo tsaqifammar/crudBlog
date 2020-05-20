@@ -15,3 +15,6 @@ Do the following steps to get it up and running :
 Firstly, you have to start XAMPP program. After that, there are 2 things you can do :
 1. **Read published articles**, by going to `localhost/crudBlog/`.
 2. **Publish, edit, and delete articles**, by going to `localhost/crudBlog/crud/crud-page.php`.
+
+## Note
+You can edit the `About` page to your liking.
